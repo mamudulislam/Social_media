@@ -7,7 +7,7 @@ const Profilebgpic = () => {
     return (
         <div>
             <div className='relative flex justify-center'>
-                <div className='w-full max-w-[1125px] h-[300px] bg-[#45437F]'></div>
+                <div className='w-full max-w-[1275px] h-[300px] bg-[#45437F]'></div>
                 <div className='absolute -bottom-[76px]'>
                     <div className='w-[152px] h-[152px] rounded-full border-[11px] border-white flex items-center justify-center bg-white'>
                         <div className='w-[130px] h-[130px] bg-[#615DFA] rounded-full'></div>
