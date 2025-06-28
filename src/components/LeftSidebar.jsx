@@ -8,12 +8,12 @@ import {
     FiInfo
 } from 'react-icons/fi';
 const mainMenuItems = [
-    { icon: CgFeed, label: "Profile", path: "/Profile" },
+    { icon: CgFeed, label: "Profile", path: "/" },
     { icon: CgFeed, label: "Newsfeed", path: "/Newsfeed" },
     { icon: FiUsers, label: "Friend", path: "/Friend" },
     { icon: FiInfo, label: "About Me", path: "/Aboutme" },
     { icon: CgFeed, label: "Store", path: "/Store" },
-    { icon: CgShoppingCart, label: "Cart", path: "/cart" }
+    { icon: CgShoppingCart, label: "Carts", path: "/Carts" }
 ];
 
 

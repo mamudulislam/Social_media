@@ -5,16 +5,18 @@ import Newsfeed from './pages/Postupdate/Newsfeed'
 import Friend from './pages/Friend/Friend'
 import Aboutprofile from './pages/Aboutprofile/Aboutprofile'
 import Store from './pages/Store/Store'
+import Carts from './pages/Carts/Carts'
 const App = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route>
         <Route element={< Layout />}>
-          <Route path='/Profile' element={<Home />} />
+          <Route path='/' element={<Home />} />
           <Route path='/Newsfeed' element={<Newsfeed />} />
           <Route path='/Friend' element={<Friend />} />
           <Route path='/Aboutme' element={<Aboutprofile />} />
           <Route path='/Store' element={<Store />} />
+          <Route path='/Carts' element={<Carts />} />
         </Route >
       </Route >
 
