@@ -5,7 +5,7 @@ import { MdPhotoSizeSelectActual } from 'react-icons/md';
 const Poststatus = () => {
     const [postText, setPostText] = useState('');
     const [posts, setPosts] = useState([]);
-    const [activeTab, setActiveTab] = useState('status'); // 'status' or 'product'
+    const [activeTab, setActiveTab] = useState('status');
 
     const handlePost = () => {
         if (postText.trim() !== '') {
@@ -35,8 +35,8 @@ const Poststatus = () => {
                     <button
                         onClick={() => setActiveTab('status')}
                         className={`py-[20px] px-[108px] rounded-t-[15px] font-Poppins text-[12px] font-bold ${activeTab === 'status'
-                                ? 'bg-[#615DFA] hover:bg-[#8c88ff] text-[#fff]'
-                                : 'bg-[#fff] hover:bg-[#a0a0a0] text-[#DEDEDE]'
+                            ? 'bg-[#615DFA] hover:bg-[#8c88ff] text-[#fff]'
+                            : 'bg-[#fff] hover:bg-[#a0a0a0] text-[#DEDEDE]'
                             }`}
                     >
                         Status
@@ -44,8 +44,8 @@ const Poststatus = () => {
                     <button
                         onClick={() => setActiveTab('product')}
                         className={`py-[20px] px-[98px] rounded-t-[15px] font-Poppins text-[12px] font-bold ${activeTab === 'product'
-                                ? 'bg-[#615DFA] hover:bg-[#8c88ff] text-[#fff]'
-                                : 'bg-[#fff] hover:bg-[#a0a0a0] text-[#DEDEDE]'
+                            ? 'bg-[#615DFA] hover:bg-[#8c88ff] text-[#fff]'
+                            : 'bg-[#fff] hover:bg-[#a0a0a0] text-[#DEDEDE]'
                             }`}
                     >
                         Product Upload

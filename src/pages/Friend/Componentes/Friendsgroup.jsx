@@ -4,8 +4,6 @@ import FriendData from './FriendData';
 
 const Friendsgroup = () => {
     const [searchTerm, setSearchTerm] = useState('');
-
-    // Filter friends (case-insensitive search for name/email)
     const filteredFriends = FriendData.filter((friend) => {
         const term = searchTerm.toLowerCase();
         return (
@@ -16,11 +14,8 @@ const Friendsgroup = () => {
 
     return (
         <div>
-            {/* Header (unchanged) */}
             <p className='mt-[62px] font-Poppins font-normal text-[14px] uppercase text-[#AFB0C0]'>BROWSE ABM mahmud</p>
             <h2 className='mt-1 font-Poppins font-medium text-[24px] text-[#24234B]'>Friends {filteredFriends.length}</h2>
-
-            {/* Search Bar (unchanged structure, added onChange) */}
             <div className='mt-[39px] w-[1185px] h-[85px] bg-[#ffffff] flex relative'>
                 <input
                     type="text"
@@ -33,8 +28,6 @@ const Friendsgroup = () => {
                     <FaSearch />
                 </div>
             </div>
-
-            {/* Friend Cards Grid (unchanged, now using filteredFriends) */}
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-4">
                 {filteredFriends.map((friend) => (
                     <div key={friend.id} className="mt-[31px] max-w-xs rounded-2xl overflow-hidden shadow-lg text-center bg-white">
