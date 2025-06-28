@@ -18,7 +18,7 @@ const Layout = () => {
                         <RightSidebar />
                     </div>
                 </div>
-            </Container>
+            </Container >
         </>
 
     )

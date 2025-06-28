@@ -24,7 +24,7 @@ const Leftsidebar = () => {
         <div className='bg-white p-4 rounded-lg shadow-sm w-full max-w-[280px] mx-auto lg:mx-0 sticky top-4'>
             <div className='bg-[#615DFA] w-[110px] h-[110px] rounded-full mx-auto flex items-center justify-center'>
                 <img
-                    src="https://randomuser.me/api/portraits/men/32.jpg"
+                    src="https://lh3.googleusercontent.com/ogw/AF2bZygz4I4sgIOyqorMdW5eorluMFnuvHXUIKuAmeepHsqMnaI=s64-c-mo"
                     alt="Profile"
                     className="w-full h-full rounded-full object-cover"
                 />
