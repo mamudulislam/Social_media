@@ -6,6 +6,7 @@ import Friend from './pages/Friend/Friend'
 import Aboutprofile from './pages/Aboutprofile/Aboutprofile'
 import Store from './pages/Store/Store'
 import Carts from './pages/Carts/Carts'
+import Checkout from './pages/Checkout/Checkout'
 const App = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
@@ -17,6 +18,7 @@ const App = () => {
           <Route path='/Aboutme' element={<Aboutprofile />} />
           <Route path='/Store' element={<Store />} />
           <Route path='/Carts' element={<Carts />} />
+          <Route path='/Checkout' element={<Checkout />} />
         </Route >
       </Route >
 

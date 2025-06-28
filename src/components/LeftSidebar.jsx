@@ -1,20 +1,23 @@
 import { NavLink, useLocation } from 'react-router-dom';
 import {
-    CgFeed,
+    CgProfile,
     CgShoppingCart
 } from 'react-icons/cg';
 import {
     FiUsers,
     FiInfo
 } from 'react-icons/fi';
+import { FaAppStore, FaNewspaper } from 'react-icons/fa';
+import { IoBagCheckOutline } from 'react-icons/io5';
 
 const mainMenuItems = [
-    { icon: CgFeed, label: "Profile", path: "/" },
-    { icon: CgFeed, label: "Newsfeed", path: "/Newsfeed" },
+    { icon: CgProfile, label: "Profile", path: "/" },
+    { icon: FaNewspaper, label: "Newsfeed", path: "/Newsfeed" },
     { icon: FiUsers, label: "Friend", path: "/Friend" },
     { icon: FiInfo, label: "About Me", path: "/Aboutme" },
-    { icon: CgFeed, label: "Store", path: "/Store" },
-    { icon: CgShoppingCart, label: "Carts", path: "/Carts" }
+    { icon: FaAppStore, label: "Store", path: "/Store" },
+    { icon: CgShoppingCart, label: "Carts", path: "/Carts" },
+    { icon: IoBagCheckOutline, label: "Checkout", path: "/Checkout" }
 ];
 
 const Leftsidebar = () => {
