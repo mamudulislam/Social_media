@@ -9,6 +9,7 @@ import {
 } from 'react-icons/fi';
 import { FaAppStore, FaNewspaper } from 'react-icons/fa';
 import { IoBagCheckOutline } from 'react-icons/io5';
+import { AiFillProduct } from 'react-icons/ai';
 
 const mainMenuItems = [
     { icon: CgProfile, label: "Profile", path: "/" },
@@ -17,7 +18,8 @@ const mainMenuItems = [
     { icon: FiInfo, label: "About Me", path: "/Aboutme" },
     { icon: FaAppStore, label: "Store", path: "/Store" },
     { icon: CgShoppingCart, label: "Carts", path: "/Carts" },
-    { icon: IoBagCheckOutline, label: "Checkout", path: "/Checkout" }
+    { icon: IoBagCheckOutline, label: "Checkout", path: "/Checkout" },
+    { icon: AiFillProduct, label: "Product", path: "/Product" }
 ];
 
 const Leftsidebar = () => {

@@ -3,3 +3,7 @@
 @theme {
     --font-Poppins: "Poppins", sans-serif;
 }
+
+:where(.css-dev-only-do-not-override-1rfzxih).ant-space-gap-col-small {
+    column-gap: 106px;
+}

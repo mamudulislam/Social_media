@@ -9,7 +9,7 @@ import Biodata from './Componentes/Biodata'
 import Profilebgpic from '../Home/Componentes/profilebgpic/Profilebgpic'
 const Aboutprofile = () => {
     return (
-        <div className='my-4 mx-8 mb-5'>
+        <div className='my-4 mx-2 mb-5'>
             <Profilebgpic />
             <div className='grid grid-cols-[30%_70%]'>
                 <div>

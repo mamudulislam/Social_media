@@ -5,7 +5,7 @@ import StorCard from './Componentes/StorCard'
 const Store = () => {
     return (
         <div className='mt-[36px] '>
-            <div className='my-4 mx-8 mb-5'>
+            <div className='my-4 mx-2 mb-5'>
                 <Banner />
                 <h1 className='mt-[22px] font-Poppins font-bold text-[14px]'>Categories</h1>
                 <div className='w-[1184px] h-[50px] rounded-[7px] bg-[#ffff] mt-[33px] flex items-center justify-around'>
@@ -33,7 +33,6 @@ const Store = () => {
                     <StorCard />
                     <StorCard />
                 </div>
-
             </div>
         </div>
     )

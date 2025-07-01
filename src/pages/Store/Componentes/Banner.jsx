@@ -3,7 +3,7 @@ import storeshop from "../../../assets/storeshop.png"
 const Banner = () => {
     return (
         <>
-            <div className='w-[1184px] h-[160px] bg-[#615DFA] flex gap-x-[36px] rounded-[14px]'>
+            <div className='w-[1140px] h-[160px] bg-[#615DFA] flex gap-x-[36px] rounded-[14px]'>
                 <img src={storeshop} />
                 <div>
                     <h1 className='mt-[47px] font-Poppins font-bold text-[36px] text-[#ffffff]'>MERNIAN Marketplace</h1>
